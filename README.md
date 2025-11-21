@@ -16,8 +16,14 @@ can be easily maintained, because the canonical definition is shared.
 
 ## Installation
 
-`openapi2jsonschema` is implemented in Python. Assuming you have a
-Python intepreter and pip installed you should be able to install with:
+`openapi2jsonschema` is implemented in Python. Assuming you have
+[uv](https://docs.astral.sh/uv/) installed, you can install with:
+
+```
+uv tool install openapi2jsonschema
+```
+
+Or using pip:
 
 ```
 pip install openapi2jsonschema
